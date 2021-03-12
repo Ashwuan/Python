@@ -1,0 +1,7 @@
+Name = input('What is your name?: ')
+Favoritefood = input('What is your favorite food?: ')
+Swimming = input('What is your favorite place to swim?: ')
+print()
+print(Name  + ' is a small boy ')
+print('he likes to eat ' + Favoritefood)
+print ('and loves to swim at the', Swimming)
