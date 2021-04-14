@@ -7,10 +7,11 @@ number_grid = [
 [0]
 ]
 
-for col in number_grid:
+for row in number_grid:
     try:
-        print(col[GridInput])
+        print(row[GridInput])
     except:
         print("list index out of range")
+        break
 
    
